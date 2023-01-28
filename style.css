@@ -1,0 +1,102 @@
+.header {
+    height: 80px;
+    background-color: rgb(231, 242, 242);
+    text-align: left;
+}
+/* LAYOUT */
+
+.main-layout {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* HELPER */
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-basis50 {
+    flex-basis: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+/* end helpers */
+.bgc {
+    background-image: url(./asset/wet-grass.jpeg);
+    height: 600px;
+    background-size: cover;
+}
+.form-r {
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(246, 240, 240, 0.89);
+}
+button {
+    background-color: rgb(120, 160, 196);
+}
+.how-to img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+.how-to, h2 {
+    flex-basis: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    /* height: 120px; */
+}
+.card {
+    height: 350px;
+    width: 450px;
+    border: none;
+}
+.bgc-art {
+    background-color: rgb(150, 212, 212);
+    padding: 70px 150px;
+    /* height: 550px; */
+}
+.b-sec {
+    padding: 50px;
+}
+.b-sec img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+.b-bor {
+    border-left: 10px solid grey;
+}
+.foot {
+    background: #000;
+    color: aqua;
+    padding: 20px 50px;
+}
